@@ -116,6 +116,7 @@
 
 ;; window commands
 (define-prefix-command 'evil-window-map)
+;; Arrows go here
 (define-key evil-window-map "b" 'evil-window-bottom-right)
 (define-key evil-window-map "c" 'evil-window-delete)
 (define-key evil-window-map "h" 'evil-window-left)
